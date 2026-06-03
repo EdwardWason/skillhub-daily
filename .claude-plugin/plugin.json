@@ -1,0 +1,24 @@
+{
+  "name": "skillhub-daily",
+  "description": "Daily SkillHub skill discovery - scan Top100 + 7 categories, match user pain points, push to IMA/Lark/Obsidian. Supports both interactive and cron modes.",
+  "version": "6.2.0",
+  "author": {
+    "name": "SkillHub-Community"
+  },
+  "homepage": "https://github.com/skillhub-community/skillhub-daily",
+  "repository": "https://github.com/skillhub-community/skillhub-daily",
+  "license": "MIT",
+  "keywords": [
+    "skillhub",
+    "skill-discovery",
+    "daily-briefing",
+    "ai-tools",
+    "personalized-recommendation",
+    "ima",
+    "lark",
+    "feishu",
+    "obsidian",
+    "cron"
+  ],
+  "skills": ["./"]
+}

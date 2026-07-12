@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ClawHub
+.clawhub/
+skill-card.md
+
+# Data (runtime output, not source code)
+data/snapshots/
+data/recommended/
+
+# Config
+config.local.json
+.env.local
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

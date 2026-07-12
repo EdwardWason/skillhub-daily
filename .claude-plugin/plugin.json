@@ -1,24 +1,21 @@
 {
   "name": "skillhub-daily",
-  "description": "Daily SkillHub skill discovery - scan Top100 + 7 categories, match user pain points, push to IMA/Lark/Obsidian. Supports both interactive and cron modes.",
-  "version": "6.2.0",
-  "author": {
-    "name": "SkillHub-Community"
-  },
-  "homepage": "https://github.com/skillhub-community/skillhub-daily",
-  "repository": "https://github.com/skillhub-community/skillhub-daily",
-  "license": "MIT",
-  "keywords": [
-    "skillhub",
-    "skill-discovery",
-    "daily-briefing",
-    "ai-tools",
-    "personalized-recommendation",
-    "ima",
-    "lark",
-    "feishu",
-    "obsidian",
-    "cron"
+  "version": "7.0.1",
+  "description": "每日扫描 SkillHub.cn 7.5 万+ 技能，7 维度推荐 8 个，聚焦国内适配与活跃开发者",
+  "author": "EdwardWason",
+  "license": "MIT-0",
+  "homepage": "https://skillhub.cn",
+  "capabilities": [
+    "data-collection",
+    "data-analysis",
+    "content-generation"
   ],
-  "skills": ["./"]
+  "permissions": {
+    "network": true,
+    "filesystem": {
+      "read": ["data/"],
+      "write": ["data/recommended/", "data/snapshots/"]
+    },
+    "env_vars": ["IMA_OPENAPI_CLIENTID", "IMA_OPENAPI_APIKEY", "OBSIDIAN_VAULT_PATH", "TRAE_MEMORY_PATH", "IMA_KB_ID", "SKILLHUB_BIN"]
+  }
 }
